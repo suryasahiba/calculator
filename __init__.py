@@ -16,7 +16,7 @@ def ADD():
     a=int(jsonObj['N1'])
     b=int(jsonObj['N2'])
     sum=a+b
-    response = "sum = " + str(sum)
+    response = str(sum)                                #"sum = " + str(sum)
     return response
 #add your functions below
 
